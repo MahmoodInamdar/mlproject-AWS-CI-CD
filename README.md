@@ -46,11 +46,11 @@ Docker  Image
 
 ## Run from terminal:
 
-docker build -t <Container registry>/<Application name >:latest .
+docker build -t Container registry/Application name :latest .
 
-docker login <Container registry>
+docker login Container registry
 
-docker push <Container registry>/<Application name >:latest
+docker push Container registry/Application name:latest
 
 
 ## Container Registry
