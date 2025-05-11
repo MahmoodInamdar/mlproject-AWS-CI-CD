@@ -46,14 +46,14 @@ Docker  Image
 
 ## Run from terminal:
 
-docker build -t testdockerkrish.azurecr.io/mltest:latest .
+docker build -t <Container registry>/<Application name >:latest .
 
-docker login testdockerkrish.azurecr.io
+docker login <Container registry>
 
-docker push testdockerkrish.azurecr.io/mltest:latest
+docker push <Container registry>/<Application name >:latest
 
 
-##Container Registry
+## Container Registry
 ## Web app
 
 
