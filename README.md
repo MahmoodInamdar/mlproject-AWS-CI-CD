@@ -39,3 +39,21 @@ AWS_REGION = us-east-1
 AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
 ECR_REPOSITORY_NAME = simple-app
+
+## Setup up for Azure
+
+Docker  Image
+
+## Run from terminal:
+
+docker build -t testdockerkrish.azurecr.io/mltest:latest .
+
+docker login testdockerkrish.azurecr.io
+
+docker push testdockerkrish.azurecr.io/mltest:latest
+
+
+##Container Registry
+## Web app
+
+
